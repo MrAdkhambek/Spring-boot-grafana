@@ -1,0 +1,17 @@
+management:
+    endpoints:
+        web:
+            exposure:
+                include: health, metrics, info, prometheus
+    metrics:
+        enable:
+            jvm: true
+
+        tags:
+            application: "Simple Monitoring"
+        export:
+            prometheus:
+                enabled: true
+        distribution:
+            percentiles-histogram:
+                "[http.server.requests]": true

@@ -1,0 +1,30 @@
+{
+	"ulid": "01FS9DS9BQR8ECEMCH79JX7V5H",
+	"minTime": 1641917046751,
+	"maxTime": 1641931200000,
+	"stats": {
+		"numSamples": 457797,
+		"numSeries": 956,
+		"numChunks": 4403
+	},
+	"compaction": {
+		"level": 2,
+		"sources": [
+			"01FS8NQZZMRGGWJCRK1K9HK368",
+			"01FS8NR047JNJCE92YRA2KM35J"
+		],
+		"parents": [
+			{
+				"ulid": "01FS8NQZZMRGGWJCRK1K9HK368",
+				"minTime": 1641917046751,
+				"maxTime": 1641924000000
+			},
+			{
+				"ulid": "01FS8NR047JNJCE92YRA2KM35J",
+				"minTime": 1641924000703,
+				"maxTime": 1641931200000
+			}
+		]
+	},
+	"version": 1
+}
